@@ -1,0 +1,26 @@
+{
+  "name": "nbz4live/steam-web-api-generator",
+  "description": "Generates a pretty formatted documentation for the Steam Web Api",
+  "type": "project",
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=5.3.3",
+    "symfony/console": "^3.2",
+    "crescentrose/steam-web-api": "dev-master",
+    "windwalker/renderer": "3.*",
+    "illuminate/view": "5.*",
+    "vlucas/phpdotenv": "^2.4",
+    "symfony/filesystem": "^3.2"
+  },
+  "authors": [
+    {
+      "name": "Sergey Fayngold",
+      "email": "sergey@faynhost.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "SteamWebApiGenerator\\": "src/"
+    }
+  }
+}

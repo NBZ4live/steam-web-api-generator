@@ -1,0 +1,25 @@
+nav[data-toggle='toc'] {
+    margin-top: 30px;
+}
+
+nav[data-toggle=toc] .nav>li>a {
+    color: #fff;
+}
+
+nav[data-toggle=toc] .nav .nav>.active:focus>a,
+nav[data-toggle=toc] .nav .nav>.active:hover>a,
+nav[data-toggle=toc] .nav .nav>.active>a,
+nav[data-toggle=toc] .nav>.active:focus>a,
+nav[data-toggle=toc] .nav>.active:hover>a,
+nav[data-toggle=toc] .nav>.active>a,
+nav[data-toggle=toc] .nav>li>a:focus,
+nav[data-toggle=toc] .nav>li>a:hover {
+    color: #66c0f4;
+    border-color: #66c0f4;
+}
+
+.api-method-heading {
+    font-size: 14px;
+    display: inline;
+    font-weight: bold;
+}
